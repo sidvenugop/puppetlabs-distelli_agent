@@ -1,5 +1,5 @@
-DistelliAccessToken: '<%= $distelli::agent::access_token.unwrap %>'
-DistelliSecretKey: '<%= $distelli::agent::secret_key.unwrap %>'
+DistelliAccessToken: '9EMWDPQZ9KVJ0E5242E54D9I3'
+DistelliSecretKey: 'jzjjpiemik98mj9i5aubwvzj03oftx2gjz4cr'
 <%  if $distelli::agent::endpoint { -%>
 AgentEndpoint: '<%= $distelli::agent::endpoint %>'
 <%  }

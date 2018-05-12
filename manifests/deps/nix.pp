@@ -24,7 +24,7 @@ class distelli::deps::nix inherits distelli::agent {
     $password = $::distelli::agent::user_password
   }
   else {
-    $password = 'changeme'
+    $password = 'Cat@2018'
   }
 
   if $::distelli::agent::user_shell {

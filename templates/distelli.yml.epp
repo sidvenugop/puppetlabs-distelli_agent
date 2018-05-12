@@ -1,7 +1,7 @@
 DistelliAccessToken: '9EMWDPQZ9KVJ0E5242E54D9I3'
 DistelliSecretKey: 'jzjjpiemik98mj9i5aubwvzj03oftx2gjz4cr'
 <%  if $distelli::agent::endpoint { -%>
-AgentEndpoint: '<%= $distelli::agent::endpoint %>'
+AgentEndpoint: 'curl -v https://api.pipelines.puppet.com/svenugopalan/apps?apiToken=$s182psm21o0id72r0yksxlal46npu1opz782u'
 <%  }
     if $distelli::agent::environments and $distelli::agent::environments.size > 0 { -%>
 Environments:
